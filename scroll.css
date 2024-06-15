@@ -2,6 +2,11 @@
     width: 5px;
 }
  
+::-webkit-scrollbar:horizontal {
+    width: auto;
+    height: 5px;
+}
+
 ::-webkit-scrollbar-thumb {
     background: rgb(154, 154, 156);
     -webkit-border-radius: 1ex;
