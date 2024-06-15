@@ -1,8 +1,9 @@
 {
   "name": "Wayland Scroll",
   "version": "0.1",
-  "description": "Change the scroll apperience and allows to adjust speed",
-  "permissions": ["storage", "tabs", "http://*/*", "https://*/*"],
+  "description": "Change the scroll appearance and allows to adjust speed",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"],
   "content_scripts": [
     {
       "all_frames": true,
@@ -11,5 +12,5 @@
       "run_at": "document_start"
     }
   ],
-  "manifest_version": 2
+  "manifest_version": 3
 }
